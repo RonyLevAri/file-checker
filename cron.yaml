@@ -1,0 +1,4 @@
+cron:
+- description: "file check job"
+  url: /_checker/loadfiles
+  schedule: every 15 minutes

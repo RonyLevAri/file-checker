@@ -1,0 +1,46 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<section id="header_section">
+    <header>
+        <div class="container">
+            <div class="container">
+                <h1 class="welcome">Welcom to Como's file checker iterface</h1>
+            </div>
+            <!--<div id="action-div" class="container">-->
+                <!--<button id="activate" class="btn btn-primary">Activate File Checker</button>-->
+            <!--</div>-->
+        </div>
+    </header>
+</section>
+
+<section id="main_content_section">
+    <div class="container">
+        <div id="form-content-wrapper" class="form-group">
+            <input id="url" type="text" class="form-control" placeholder="Insert url here">
+            <button id="add_file" class="btn btn-primary">Add new file path to manage</button>
+            <button id="check_file" class="btn btn-primary">Check existing file status</button>
+        </div>
+    </div>
+</section>
+
+<section id="email_section">
+    <div class="container">
+        <div id="emial-content-wrapper" class="form-group">
+            <div><input id="email" type="text" class="form-control" placeholder="Insert email here"></div>
+            <button id="add_mail" class="btn btn-primary">Add new email as supervisor</button>
+        </div>
+    </div>
+</section>
+
+<section id="messages-section">
+    <div id="ajax-errors" class="alert container">
+        <p id="message"><strong>Some Message</strong></p>
+    </div>
+</section>
+
+
+
+</div>
+{% endblock %}
+
